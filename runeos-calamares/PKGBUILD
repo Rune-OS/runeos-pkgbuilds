@@ -1,11 +1,12 @@
 pkgname=runeos-calamares
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc='Calamares configuration for RuneOS'
 arch=('any')
 url='https://github.com/Rune-OS/runeos-calamares'
 license=('GPL')
 depends=('calamares')
+makedepends=('git')
 source=('git+https://github.com/Rune-OS/runeos-calamares.git')
 sha256sums=('SKIP')
 
