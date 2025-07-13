@@ -1,0 +1,16 @@
+pkgname=runeos-calamares
+pkgver=1
+pkgrel=1
+pkgdesc='Calamares configuration for RuneOS'
+arch=('any')
+url='https://github.com/Rune-OS/runeos-calamares'
+license=('GPL')
+depends=('calamares')
+source=('git+https://github.com/Rune-OS/runeos-calamares.git')
+sha256sums=('SKIP')
+
+package() {
+    cd "${srcdir}/runeos-calamares"
+    install -Dm755 "${srcdir}/runeos-calamares"
+    cp -r etc/calamares/* "$pkgdir/etc/calamares/"
+}
