@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team
+
+pkgname=runeos-lxde
+pkgver=1
+pkgrel=1
+pkgdesc='RuneOS LXDE Installation'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('runeos' 'lxde')

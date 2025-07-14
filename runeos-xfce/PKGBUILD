@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team
+
+pkgname=runeos-xfce
+pkgver=1
+pkgrel=1
+pkgdesc='RuneOS Xfce Installation'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('runeos' 'xfce4' 'xfce4-goodies')

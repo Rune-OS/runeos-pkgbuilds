@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team
+
+pkgname=runeos-cutefish
+pkgver=1
+pkgrel=1
+pkgdesc='RuneOS CuteFish Installation'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('runeos' 'cutefish')

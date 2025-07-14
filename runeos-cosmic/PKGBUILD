@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team
+
+pkgname=runeos-cosmic
+pkgver=1
+pkgrel=1
+pkgdesc='RuneOS COSMIC DE Installation (Still in Alpha)'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('runeos' 'cosmic-session' 'cosmic-text-editor' 'cosmic-files' 'cosmic-terminal' 'cosmic-player' 'cosmic-wallpapers')

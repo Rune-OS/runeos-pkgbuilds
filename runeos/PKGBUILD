@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team 
+
+pkgname=runeos
+pkgver=1
+pkgrel=1
+pkgdesc='Minimal packages for a No Desktop RuneOS Installation'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('base' 'base-devel' 'linux' 'linux-firmware' 'linux-headers' 'linux' 'git' 'vim' 'man' 'sudo' 'mesa' 'lib32-mesa' 'vulkan-radeon' 'lib32-vulkan-radeon' 'vulkan-intel' 'lib32-vulkan-intel')

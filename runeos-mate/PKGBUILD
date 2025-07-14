@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team
+
+pkgname=runeos-mate
+pkgver=1
+pkgrel=1
+pkgdesc='RuneOS MATE Installation'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('runeos' 'mate' 'mate-extra')

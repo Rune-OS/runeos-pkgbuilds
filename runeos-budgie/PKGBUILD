@@ -1,0 +1,10 @@
+# Maintainer: RuneOS Team
+
+pkgname=runeos-budgie
+pkgver=1
+pkgrel=1
+pkgdesc='RuneOS Budgie Installation'
+url='https://github.com/Rune-OS/'
+arch=('any')
+license=('GPL')
+depends=('runeos' 'budgie' 'budgie-desktop-view' 'budgie-backgrounds' 'network-manager-applet' 'papirus-icon-theme' 'nautilus')
